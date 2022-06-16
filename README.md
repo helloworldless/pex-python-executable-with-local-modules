@@ -1,6 +1,6 @@
 # PEX Packaging With Local Packages
 
-See setup.py in the repository root. This is required for PEX when running `pex .` to include local packages.
+See `setup.py` in the repository root. This is required for PEX when running `pex .` to include local packages.
 
 See `pex` commandin `Makefile`.
 
@@ -11,12 +11,18 @@ Based on these Stack Overflow answers:
 
 # Install Pex
 
+```shell
 pip3 install -r requirements.dev.txt
+```
 
 # Build
 
-Run `make build`
+```shell
+make build
+```
 
 # Run
 
-Run `make run`
+```shell
+make run
+```
